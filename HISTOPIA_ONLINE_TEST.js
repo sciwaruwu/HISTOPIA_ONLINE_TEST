@@ -1,3 +1,4 @@
+/*----------------------------------GetWeightedStrings-----------------------------------------------*/
 function GetWeight(x) 
 {
   if(x == null || x === "" || x === undefined || x === "undefined") return 0;
@@ -36,8 +37,7 @@ function CheckWeightedStrings(x, y)
 
 console.log(CheckWeightedStrings('abbcccd',[1, 3, 9, 8]))
 
----------------------------------------------------------------------------------
-
+/*----------------------------------BalancedBrackets-----------------------------------------------*/
 
 function BalancedBrackets(x)
 {
@@ -74,7 +74,7 @@ function BalancedBrackets(x)
 
 console.log(BalancedBrackets("{ ( ( [ ] ) [ ] ) [ ] }"));
 
---------------------------------------------------------------------------------
+/*----------------------------------HighestPalindrome-----------------------------------------------*/
 
 var starts = [];
 var ends = [];
